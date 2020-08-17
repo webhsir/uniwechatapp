@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "首页",
+  "navigationBarBackgroundColor": "#eee",
+  "usingComponents": {
+    "carousel": "/components/vear-carousel/vear-carousel"
+  }
+}

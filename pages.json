@@ -1,0 +1,85 @@
+{
+	"pages": [
+		{
+		    "path" : "pages/start/index",
+		    "style" : {
+				
+			}
+		},
+		
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页",
+				"navigationBarBackgroundColor": "#eee"
+
+			}
+		}, {
+			"path": "pages/dynamic/index",
+			"style": {
+				"navigationBarTitleText": "动态",
+				"navigationBarBackgroundColor": "#eee"
+			}
+		}, {
+			"path": "pages/fund/index",
+			"style": {
+				"navigationBarTitleText": "发现",
+				"navigationBarBackgroundColor": "#eee"
+			}
+		}, {
+			"path": "pages/my/index",
+			"style": {
+				"navigationBarTitleText": "我的",
+				"navigationBarBackgroundColor": "#eee"
+			}
+		},
+		// 商品详情
+		{
+			"path": "pages/goods/goodsDetails",
+			"style": {
+				"navigationBarTitleText": "商品详情",
+				"navigationBarBackgroundColor": "#eee"
+			}
+		}
+	    ,{
+            "path" : "pages/fund//index",
+            "style" : {}
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+
+	"tabBar": {
+		"color": "#cdcdcd",
+		"selectedColor": "#39cffc",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/images/icon/home.png",
+				"selectedIconPath": "static/images/icon/homeActive.png",
+				"text": "首页"
+			}, {
+				"pagePath": "pages/login/login",
+				"iconPath": "static/images/icon/fund.png",
+				"selectedIconPath": "static/images/icon/fundActive.png",
+				"text": "发现"
+			},
+			{
+				"pagePath": "pages/home/home",
+				"iconPath": "static/images/icon/dt.png",
+				"selectedIconPath": "static/images/icon/dtActive.png",
+				"text": "动态"
+			}, {
+				"pagePath": "pages/my/my",
+				"iconPath": "static/images/icon/my.png",
+				"selectedIconPath": "static/images/icon/myActive.png",
+				"text": "我的"
+			}
+		]
+	}
+}
